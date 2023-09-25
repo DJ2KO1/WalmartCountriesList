@@ -57,7 +57,6 @@ class CountryListFragment : ViewModelFragment() {
                     binding.tvLoadingText.text = uiState.error.message
                 }
                 is UIState.Success<*> -> {
-                    Log.d("This is a test still", "adfdafas")
 
                     binding.apply {
                         pbLoading.visibility = View.GONE
